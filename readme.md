@@ -1,5 +1,7 @@
 # Trabajo Práctico I
 
-## Descripción
+## Integrantes
 
-Repositorio del TPI de Programación II. Hacer fork del repostorio y completar siguiendo las consigas del TPI publicadas en el CVG.
+-Bastianelli Ignacio    
+-Mercado Danilo
+-Olbinsy Agustin

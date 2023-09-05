@@ -9,6 +9,7 @@ Cantidad de ejemplares prestados(entero)
 Autor (string)
 Título (string)
 Lista “libros” de tipo diccionario.
+Tecnicatura Universitaria en Programación - Programación II
 Al iniciar el sistema se muestra un menú que permite al bibliotecario elegir alguna de las
 siguientes opciones:
 1) Gestionar Préstamo
@@ -40,6 +41,3 @@ no tener ningún ejemplar prestado mostrar un mensaje.
 Finaliza el bucle.
 El sistema se ejecuta hasta que el usuario presione la opción 6 del menú. Muestra un mensaje
 de despedida.'''
-hola="hola daniel como te encontras hoy."
-print("la variable hola tiene como cadena: ",hola)
-print(f"la variable hola tiene como cadena {hola}")
