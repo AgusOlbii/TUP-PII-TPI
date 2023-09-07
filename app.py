@@ -3,6 +3,8 @@
 
 import os
 
+import bibloteca as biblo
+
 print("Bienvenido!")
 respuesta = ''
 
@@ -20,26 +22,27 @@ while respuesta != "salir":
     os.system ("cls") #Limpiar pantalla
     if opt.isnumeric():
         if int(opt) == 1:
-            #completar
+            print(biblo.prestar_ejemplar_libro())
             print()
         elif int(opt) == 2:
-            #completar
+            print(biblo.devolver_ejemplar_libro())
             print()
         elif int(opt) == 3:
-            #completar
+            print(biblo.registrar_nuevo_libro())
             print()
         elif int(opt) == 4:
-            #completar
+            print(biblo.eliminar_ejemplar_libro())
             print()
         elif int(opt) == 5:
-            #completar
+            print(biblo.ejemplares_prestados())
             print()
         elif int(opt) == 6:
             respuesta = "salir"
+            break
         else: print("Ingrese una opción válida")
     else: 
         print("Ingrese una opción numérica")
     
-    input("Presione cualquier tecla para continuar....") # Pausa
+    input("Presione cualquier tecla para continuar....\n") # Pausa
 
 print("Hasta luego!.")

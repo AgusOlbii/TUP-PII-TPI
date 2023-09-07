@@ -1,4 +1,4 @@
-'''import random
+import random
 import string
 
 # get random password pf length 8 with letters, digits, and symbols
@@ -7,6 +7,3 @@ def generar():
     cod = ''.join(random.choice(characters) for i in range(8))
     return cod
     
-
-print(generar())
-'''
